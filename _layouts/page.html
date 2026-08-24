@@ -109,7 +109,7 @@
     height: 0;
   }
 
-  /* UPenn-style header: oversized logo row on top, name + nav row below.
+  /* Header navigation and utilities share one compact row.
      Rides above the three decorative glass layers. */
   .header-container {
     position: relative;
@@ -120,29 +120,11 @@
     background: transparent;
   }
 
-  /* Row 1: oversized Penn logo (far left) + theme toggle (far right) */
+  /* Primary navigation (left) and utilities (right) */
   .header-top {
     display: flex;
     align-items: center;
     gap: 16px;
-  }
-
-  .header-logo {
-    display: inline-flex;
-    align-items: center;
-    flex-shrink: 0;
-    border: 0;
-    text-decoration: none;
-  }
-  .logo {
-    width: auto;
-    height: 72px;
-    flex-shrink: 0;
-    display: block;
-  }
-  /* Full-color lockup in light mode, reverse (white) lockup in dark mode */
-  .logo--dark {
-    display: none;
   }
 
   .header-actions {
@@ -153,14 +135,8 @@
     margin-left: auto;
   }
 
-  /* Row 2: name (left) + primary nav (right), with a divider above */
   .header-bottom {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-top: 8px;
-    padding: 10px 0 4px;
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    display: contents;
   }
 
   .header-nav {
@@ -254,14 +230,6 @@
     .header-container {
       padding: 8px 16px 0;
     }
-    .logo {
-      height: 54px;
-    }
-    .header-bottom {
-      gap: 14px;
-      margin-top: 6px;
-      padding: 8px 0;
-    }
     .header-social {
       display: none;
     }
@@ -285,13 +253,6 @@
     .header-container {
       padding: 8px 14px 0;
     }
-    .logo {
-      height: 42px;
-    }
-    .header-bottom {
-      gap: 12px;
-      padding: 7px 0;
-    }
     .header-nav a {
       font-size: 11px;
       letter-spacing: 0.03em;
@@ -305,13 +266,10 @@
     }
   }
 
-  /* Mobile portrait: pin the Penn logo to the far right */
+  /* Keep header utilities hidden on mobile portrait. */
   @media (max-width: 480px) and (orientation: portrait) {
     .header-actions {
       display: none;
-    }
-    .header-logo {
-      margin-left: auto;
     }
   }
 
@@ -548,8 +506,16 @@
     <div class="glass-specular" aria-hidden="true"></div>
     <div class="header-container">
 
-      <!-- Row 1: oversized Penn logo (far left) · theme toggle (far right) -->
+      <!-- Primary navigation and header utilities -->
       <div class="header-top">
+        <div class="header-bottom">
+          <nav class="header-nav" role="navigation" aria-label="Primary" itemscope itemtype="http://schema.org/SiteNavigationElement">
+            {% capture url %}{{ page.url | remove:'index.html' }}{% endcapture %}
+            {% for link in site.links %}
+            <a href="{{ site.url }}{{ link.url }}"{% if url == link.url %} class="is-current"{% endif %}>{{ link.title }}</a>
+            {% endfor %}
+          </nav>
+        </div>
         <!-- Mobile avatar with expandable contact menu (mobile portrait only) -->
         <div class="mobile-avatar-wrapper">
           <button class="mobile-avatar-btn" aria-label="Toggle contact info" aria-expanded="false">
@@ -557,11 +523,6 @@
                  alt="{{ site.owner.name }}" class="mobile-avatar-img">
           </button>
         </div>
-
-        <a class="header-logo" href="{{ site.url }}" aria-label="{{ site.owner.name }}">
-          <img src="/images/penn-logo.png" class="logo logo--light" alt="University of Pennsylvania">
-          <img src="/images/penn-logo-reverse.png" class="logo logo--dark" alt="University of Pennsylvania">
-        </a>
 
         <div class="header-actions">
           <div class="header-social">
@@ -599,15 +560,6 @@
         </div>
       </div>
 
-      <!-- Row 2: primary navigation -->
-      <div class="header-bottom">
-        <nav class="header-nav" role="navigation" aria-label="Primary" itemscope itemtype="http://schema.org/SiteNavigationElement">
-          {% capture url %}{{ page.url | remove:'index.html' }}{% endcapture %}
-          {% for link in site.links %}
-          <a href="{{ site.url }}{{ link.url }}"{% if url == link.url %} class="is-current"{% endif %}>{{ link.title }}</a>
-          {% endfor %}
-        </nav>
-      </div>
 
     </div>
   </div>

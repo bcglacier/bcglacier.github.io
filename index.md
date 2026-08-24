@@ -4,11 +4,19 @@ layout: page
 
 # About Me
 
-<img src="/images/dengsiming.jpg" class="floatpic">
+<img src="/images/jianshen.jpg" class="floatpic">
 
-Here is **Siming Deng (Larry Deng)**.<br>
+Here is **Junzhe Ma (glacier Bc)**.<br>
 
-I am a graduate student in the Department of [Electrical and Systems Engineering (ESE)](https://www.ese.upenn.edu/) at the [Penn Engineering](https://www.seas.upenn.edu/) of the **University of Pennsylvania**. Currently, I build **agentic AI tools and infrastructure** for iPhone hardware testing, spanning agent runtimes (multi-agent orchestration and tool use), on-device inference with **Apple MLX**, closed-loop test optimization, and **Vision Transformers** for distribution diagnosis. Broadly, my interests lie at the intersection of **AI infrastructure, applied ML, and hardware systems**. Prior to joining Penn, I gained valuable research experiences as a Research Assistant at Shenzhen University under the supervision of [Dr. Jun Zhang](https://www.researchgate.net/profile/Jun_Zhang93). My work focused on **Nonparametric Statistics**, **Distortion Measurement Error Models**, and **Large Sample Theory**. I developed and analyzed advanced statistical methods, conducted large-scale simulations, and applied these techniques to real-world datasets, resulting in five SCI publications.<br>
+I am an undergraduate student in the Department of [Civil Engineering](https://city.wsyu.edu.cn/) at the [College of Smart City and Life Health](https://city.wsyu.edu.cn/) of the **Wuchang Shouyi University**. During my university years, I mainly used **Go** and **Python** to develop some **campus-related products**, and they were successfully implemented. 
+
+Civil Engineering has trained me to think structurally and analytically, while my self-directed learning and project experience during university have shown me that I am more passionate and motivated by using technology to drive change and create value. Rather than limiting me, my interdisciplinary background gives me an additional perspective when solving complex problems.
+
+Recently, I have been working on an AI-powered food service project called **Shou Shang Zhi Shi**. Based on the **MCP protocol**, I connected a large language model with our team database, allowing users to query real-time merchant and dish information directly through conversations with AI. I also integrated the **DeepSeek** large language model and implemented streaming content delivery through **SSE**.
+
+I am not only writing code; I am also solving real problems for users. For example, when developing **Shou Shang Map**, I used **X-Y coordinates** to manage map locations, allowing points to be maintained dynamically through the backend without modifying the source code. When excessive data returned by the NBS page caused performance issues, I introduced pagination based on year, month, and day, and optimized the **MySQL** queries, reducing the response time by approximately **70%**, from 300 milliseconds to 80 milliseconds.
+
+Currently, I am mainly studying **AI** and **AI Agents**. I have also received awards in competitions such as the **Challenge Cup** and the **China Collegiate Computer Design Competition**. Through these experiences, I hope to continue exploring how software engineering, artificial intelligence, and practical product development can work together to create meaningful value.<br>
 
 ## Work Experience
 
@@ -139,9 +147,9 @@ I am a graduate student in the Department of [Electrical and Systems Engineering
 })();
 </script>
 
-If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - siming_deng_stat [at] 163.com
+If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - bcglacier_1@qq.com
 
-**<font color="#990000">Seeking Software Engineer and Machine Learning roles — AI Infrastructure, Applied AI / Agents, and ML Systems. Feel free to reach out!</font>**
+**<font color="#990000">Seeking Software Engineer and AI-related positions. Feel free to reach out!</font>**
 
 ---
 
@@ -271,7 +279,7 @@ If you are interested in any aspect of me, I am always open to discussions and c
 I currently work at the intersection of **AI infrastructure and applied ML**, building agent runtimes and optimizing LLM inference.
 
 Previously, my research centered on **nonparametric statistics** and **measurement-error modeling**, unobservable-variable estimation under multiplicative distortion frameworks, where I developed calibration methods and simulation studies to improve correlation-coefficient estimation in complex industrial settings, resulting in five SCI publications.
-<img src="/images/sunset.jpg">
+<img src="/images/hangzhou.jpg">
 
 ---
 

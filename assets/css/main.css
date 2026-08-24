@@ -4872,3 +4872,54 @@ hr {
 [data-theme="dark"] .article-wrap font[color="#990000"] {
   color: #e5484d;
 }
+
+/* Collapsible work experience section */
+.work-experience {
+  margin: 1.2em 0 2em;
+}
+
+.work-experience > summary {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+  color: #990000;
+  font-family: "Roboto Slab", Georgia, serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1.2;
+  outline: none;
+}
+
+.work-experience > summary::-webkit-details-marker {
+  display: none;
+}
+
+.work-experience > summary::before {
+  content: "";
+  width: 0;
+  height: 0;
+  margin-right: 0.55em;
+  border-top: 0.32em solid transparent;
+  border-bottom: 0.32em solid transparent;
+  border-left: 0.45em solid currentColor;
+  transition: transform 0.2s ease;
+}
+
+.work-experience[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.work-experience > summary:hover,
+.work-experience > summary:focus-visible {
+  color: #011f5b;
+}
+
+.work-experience > summary:focus-visible {
+  border-radius: 4px;
+  box-shadow: 0 0 0 3px rgba(1, 31, 91, 0.2);
+}
+
+.work-experience > .timeline {
+  margin-top: 1.5em;
+}
