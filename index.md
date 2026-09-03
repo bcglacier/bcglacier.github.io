@@ -12,7 +12,7 @@ I am an undergraduate student in the Department of [Civil Engineering](https://c
 
 ## Work Experience
 
-<div class="timeline">
+<!-- <div class="timeline">
   <div class="timeline-progress" id="timeline-progress"></div>
 
   <div class="timeline-item timeline-item--current">
@@ -90,7 +90,7 @@ I am an undergraduate student in the Department of [Civil Engineering](https://c
     </div>
   </div>
 
-</div>
+</div> -->
 
 <script>
 (function() {
@@ -145,45 +145,45 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 ---
 
-## Publications
+## Learning publications
 
 <div class="publications-grid">
 
   <div class="publication-card">
     <div class="publication-thumb">
-      <img src="/images/papers/paper1.svg" alt="Innovative covariance-based framework">
-      <a href="https://www.tandfonline.com/doi/abs/10.1080/03610918.2026.2635000" class="publication-overlay" target="_blank" rel="noopener">
-        <span>View Paper</span>
+      <img src="/images/papers/paper1.svg" alt="Python scripts to make high-quality figures">
+      <a href="https://github.com/bcglacier/figures4papers" class="publication-overlay" target="_blank" rel="noopener">
+        <span>View skill</span>
       </a>
     </div>
     <div class="publication-info">
       <div class="publication-title">
-        <a href="https://www.tandfonline.com/doi/abs/10.1080/03610918.2026.2635000" target="_blank" rel="noopener">Innovative covariance-based framework: symmetry assessment and exponentiality testing under multiplicative distortion measurement Errors</a>
+        <a href="https://github.com/bcglacier/figures4papers" target="_blank" rel="noopener">Python scripts to make high-quality figures: These figures are published at top venues, including Nature Machine Intelligence, ICML, NeurIPS, ECCV, etc. </a>
       </div>
-      <div class="publication-authors"><strong class="author-highlight">Siming Deng</strong>, Jun Zhang, Jiongtao Zhong</div>
-      <div class="publication-conference"><span class="pub-venue">Communications in Statistics - Simulation and Computation, 2026</span> <a href="https://www.tandfonline.com/doi/abs/10.1080/03610918.2026.2635000" target="_blank">[paper]</a></div>
-      <div class="publication-details">SCI, first author</div>
+      <div class="publication-authors"><strong class="author-highlight">Chen Liu</strong></div>
+      <div class="publication-conference"><span class="pub-venue">The scientific figure making skill lives in scientific-figure-making/. Demo figures live in assets/. Project-specific scripts and outputs live in figure_*/.</span> <a href="https://github.com/bcglacier/figures4papers" target="_blank">[github]</a></div>
+      <div class="publication-details">ChenLiu-1996/figures4papers</div>
     </div>
   </div>
 
   <div class="publication-card">
     <div class="publication-thumb">
-      <img src="/images/papers/paper2.svg" alt="A New Logarithmic Multiplicative Distortion">
-      <a href="https://onlinelibrary.wiley.com/doi/10.1002/sam.11708" class="publication-overlay" target="_blank" rel="noopener">
-        <span>View Paper</span>
+      <img src="/images/papers/helloimage.svg" alt="Building Agent Systems from Scratch">
+      <a href="https://github.com/datawhalechina/hello-agents" class="publication-overlay" target="_blank" rel="noopener">
+        <span>View Tutorial</span>
       </a>
     </div>
     <div class="publication-info">
       <div class="publication-title">
-        <a href="https://onlinelibrary.wiley.com/doi/10.1002/sam.11708" target="_blank" rel="noopener">A New Logarithmic Multiplicative Distortion for Correlation Analysis</a>
+        <a href="https://github.com/datawhalechina/hello-agents" target="_blank" rel="noopener">🤖 "Building Agent Systems from Scratch"</a>
       </div>
-      <div class="publication-authors"><strong class="author-highlight">Siming Deng</strong>, Jun Zhang</div>
-      <div class="publication-conference"><span class="pub-venue">Statistical Analysis and Data Mining, 2024</span> <a href="https://onlinelibrary.wiley.com/doi/10.1002/sam.11708" target="_blank">[paper]</a></div>
-      <div class="publication-details">SCI, JCR: Q1, first author, Top Cited Article - WILEY 2025</div>
+      <div class="publication-authors"><strong class="author-highlight">Datawhale</strong></div>
+      <div class="publication-conference"><span class="pub-venue">From foundational theory to practical applications, master the design and implementation of agent systems</span> <a href="https://github.com/datawhalechina/hello-agents" target="_blank">[github]</a></div>
+      <div class="publication-details">datawhalechina/hello-agents</div>
     </div>
   </div>
 
-  <div class="publication-card">
+  <!-- <div class="publication-card">
     <div class="publication-thumb">
       <img src="/images/papers/paper3.svg" alt="A Revisit to Pearson Correlation Coefficient">
       <a href="https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2333352" class="publication-overlay" target="_blank" rel="noopener">
@@ -232,7 +232,7 @@ If you are interested in any aspect of me, I am always open to discussions and c
       <div class="publication-conference"><span class="pub-venue">Communications in Statistics - Theory and Methods, 2023</span> <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2288794" target="_blank">[paper]</a></div>
       <div class="publication-details">SCI, 3rd-author</div>
     </div>
-  </div>
+  </div> -->
 
 </div>
 
@@ -260,24 +260,21 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 ---
 
-## Research Interests
+## Mainly Study 
 
-- ML Systems & AI Infrastructure
-- Efficient & On-Device Inference (Apple MLX, SGLang)
+- LLM Post-Training & Agentic Workflow Orchestration
+- Traditional development (JavaScript,Flutter,GoLand,Python)
 - Agentic AI (multi-agent orchestration & tool use)
-- Machine Learning
-- Nonparametric Statistics
+- soil mechanics
+- Principles of Concrete Structures
 
-I currently work at the intersection of **AI infrastructure and applied ML**, building agent runtimes and optimizing LLM inference.
-
-Previously, my research centered on **nonparametric statistics** and **measurement-error modeling**, unobservable-variable estimation under multiplicative distortion frameworks, where I developed calibration methods and simulation studies to improve correlation-coefficient estimation in complex industrial settings, resulting in five SCI publications.
 <img src="/images/hangzhou.jpg">
 
 ---
 
 ## News and Updates
 
-<div class="news-grid">
+<!-- <div class="news-grid">
   <div class="news-card news-card--publication">
     <div class="news-meta">
       <span class="news-date">February 2026</span>
@@ -309,7 +306,7 @@ Previously, my research centered on **nonparametric statistics** and **measureme
     </div>
     <p>First-Author Paper: <a href="https://onlinelibrary.wiley.com/doi/10.1002/sam.11708"><strong>A New Logarithmic Multiplicative Distortion for Correlation Analysis</strong></a> Now Officially Published in <a href="https://onlinelibrary.wiley.com/journal/19321872">Statistical Analysis and Data Mining</a> (JCR Q1)</p>
   </div>
-</div>
+</div> -->
 
 <script>
 (function() {
