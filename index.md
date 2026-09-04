@@ -183,41 +183,41 @@ If you are interested in any aspect of me, I am always open to discussions and c
     </div>
   </div>
 
+  <div class="publication-card">
+    <div class="publication-thumb">
+      <img src="/images/papers/archify.svg" alt="Turn a codebase or system description into a polished, interactive system map">
+      <a href="https://github.com/tt-a1i/archify" class="publication-overlay" target="_blank" rel="noopener">
+        <span>View github</span>
+      </a>
+    </div>
+    <div class="publication-info">
+      <div class="publication-title">
+        <a href="https://github.com/tt-a1i/archify" target="_blank" rel="noopener">Turn a codebase or system description into a polished, interactive system map — directly in chat.</a>
+      </div>
+      <div class="publication-authors"><strong class="author-highlight">Archify</strong></div>
+      <div class="publication-conference"><span class="pub-venue">Archify is a Node.js rendering and validation system for Cursor, Claude Code, Codex CLI, and OpenCode. Agents produce typed JSON IR; Archify deterministically compiles it into HTML/SVG.</span> <a href="https://github.com/tt-a1i/archify" target="_blank">[github]</a></div>
+      <div class="publication-details">tt-a1i/archify</div>
+    </div>
+  </div>
+
+  <div class="publication-card">
+    <div class="publication-thumb">
+      <img src="/images/papers/beautify.svg" alt="Make the project clear at first glance">
+      <a href="https://github.com/oil-oil/beautify-github-readme" class="publication-overlay" target="_blank" rel="noopener">
+        <span>View github</span>
+      </a>
+    </div>
+    <div class="publication-info">
+      <div class="publication-title">
+        <a href="https://github.com/oil-oil/beautify-github-readme" target="_blank" rel="noopener">Make the project clear at first glance</a>
+      </div>
+      <div class="publication-authors"><strong class="author-highlight">oil_oil</strong></div>
+      <div class="publication-conference"><span class="pub-venue">reads the real repository first, identifies the clearest value and proof, and only then decides how the page should look.</span> <a href="https://github.com/oil-oil/beautify-github-readme" target="_blank">[github]</a></div>
+      <div class="publication-details">oil-oil/beautify-github-readme</div>
+    </div>
+  </div>
+
   <!-- <div class="publication-card">
-    <div class="publication-thumb">
-      <img src="/images/papers/paper3.svg" alt="A Revisit to Pearson Correlation Coefficient">
-      <a href="https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2333352" class="publication-overlay" target="_blank" rel="noopener">
-        <span>View Paper</span>
-      </a>
-    </div>
-    <div class="publication-info">
-      <div class="publication-title">
-        <a href="https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2333352" target="_blank" rel="noopener">A Revisit to Pearson Correlation Coefficient under Multiplicative Distortions</a>
-      </div>
-      <div class="publication-authors"><strong class="author-highlight">Siming Deng</strong>, Jun Zhang, Yingcong Huang, Jiongtao Zhong & Xiaozhen Yang</div>
-      <div class="publication-conference"><span class="pub-venue">Communications in Statistics - Simulation and Computation, 2024</span> <a href="https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2333352" target="_blank">[paper]</a></div>
-      <div class="publication-details">SCI, first author, Highly Cited Paper - Web of Science</div>
-    </div>
-  </div>
-
-  <div class="publication-card">
-    <div class="publication-thumb">
-      <img src="/images/papers/paper4.svg" alt="Covariance Ratio under Multiplicative Distortion">
-      <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2295240" class="publication-overlay" target="_blank" rel="noopener">
-        <span>View Paper</span>
-      </a>
-    </div>
-    <div class="publication-info">
-      <div class="publication-title">
-        <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2295240" target="_blank" rel="noopener">Covariance Ratio under Multiplicative Distortion Measurement Errors</a>
-      </div>
-      <div class="publication-authors">Jiongtao Zhong, <strong class="author-highlight">Siming Deng</strong>, Jun Zhang & Zhenghui Feng</div>
-      <div class="publication-conference"><span class="pub-venue">Communications in Statistics - Theory and Methods, 2023</span> <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2295240" target="_blank">[paper]</a></div>
-      <div class="publication-details">SCI, 2nd-author</div>
-    </div>
-  </div>
-
-  <div class="publication-card">
     <div class="publication-thumb">
       <img src="/images/papers/paper5.svg" alt="Estimation of Correlation Coefficient">
       <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2288794" class="publication-overlay" target="_blank" rel="noopener">

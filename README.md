@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://larrysimingdeng.github.io">
+<a href="https://bcglacier.github.io">
   <img src=".github/assets/banner.svg" alt="Siming Deng, personal academic website" width="100%">
 </a>
 
