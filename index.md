@@ -216,24 +216,6 @@ If you are interested in any aspect of me, I am always open to discussions and c
       <div class="publication-details">oil-oil/beautify-github-readme</div>
     </div>
   </div>
-
-  <!-- <div class="publication-card">
-    <div class="publication-thumb">
-      <img src="/images/papers/paper5.svg" alt="Estimation of Correlation Coefficient">
-      <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2288794" class="publication-overlay" target="_blank" rel="noopener">
-        <span>View Paper</span>
-      </a>
-    </div>
-    <div class="publication-info">
-      <div class="publication-title">
-        <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2288794" target="_blank" rel="noopener">Estimation of Correlation Coefficient with Monotone Transformation and Multiplicative Distortions</a>
-      </div>
-      <div class="publication-authors">Jun Zhang, Xuan Yu, <strong class="author-highlight">Siming Deng</strong>, Jiongtao Zhong, Yisheng Zhou & Bingqing Lin</div>
-      <div class="publication-conference"><span class="pub-venue">Communications in Statistics - Theory and Methods, 2023</span> <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2288794" target="_blank">[paper]</a></div>
-      <div class="publication-details">SCI, 3rd-author</div>
-    </div>
-  </div> -->
-
 </div>
 
 <script>
@@ -274,16 +256,25 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 ## News and Updates
 
-<!-- <div class="news-grid">
+<div class="news-grid">
+
   <div class="news-card news-card--publication">
     <div class="news-meta">
-      <span class="news-date">February 2026</span>
-      <span class="news-tag news-tag--publication">Publication</span>
+      <span class="news-date">September 7 2026</span>
+      <span class="news-tag news-tag--publication">Recommendation</span>
     </div>
-    <p>First-Author Paper: <a href="https://www.tandfonline.com/doi/abs/10.1080/03610918.2026.2635000"><strong>Innovative covariance-based framework: symmetry assessment and exponentiality testing under multiplicative distortion measurement Errors</strong></a> Now Officially Published in <a href="https://www.tandfonline.com/journals/lssp20">Communications in Statistics - Simulation and Computation</a></p>
+    <p>PPT Master：<a href="https://github.com/hugohe3/ppt-master"><strong>AI generates native PowerPoint from any document.</strong></a></p>
   </div>
 
-  <div class="news-card news-card--milestone">
+  <div class="news-card news-card--publication">
+    <div class="news-meta">
+      <span class="news-date">September 7 2026</span>
+      <span class="news-tag news-tag--publication">Recommendation</span>
+    </div>
+    <p>Effortless Web Scraping for the Modern Web：<a href="https://github.com/D4Vinci/Scrapling"><strong>Scrapling is an adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl.</strong></a></p>
+  </div>
+
+  <!-- <div class="news-card news-card--milestone">
     <div class="news-meta">
       <span class="news-date">Jan 2026</span>
       <span class="news-tag news-tag--milestone">Milestone</span>
@@ -305,8 +296,8 @@ If you are interested in any aspect of me, I am always open to discussions and c
       <span class="news-tag news-tag--publication">Publication</span>
     </div>
     <p>First-Author Paper: <a href="https://onlinelibrary.wiley.com/doi/10.1002/sam.11708"><strong>A New Logarithmic Multiplicative Distortion for Correlation Analysis</strong></a> Now Officially Published in <a href="https://onlinelibrary.wiley.com/journal/19321872">Statistical Analysis and Data Mining</a> (JCR Q1)</p>
-  </div>
-</div> -->
+  </div> -->
+</div>
 
 <script>
 (function() {
