@@ -258,6 +258,30 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 <div class="news-grid">
 
+  <!-- <div class="news-card news-card--milestone">
+    <div class="news-meta">
+      <span class="news-date">September 15 2026</span>
+      <span class="news-tag news-tag--milestone">Milestone</span>
+    </div>
+    <p>Thrilled to have received an offer from UPenn Engineering!</p>
+  </div> -->
+
+  <div class="news-card news-card--publication">
+    <div class="news-meta">
+      <span class="news-date">September 15 2026</span>
+      <span class="news-tag news-tag--publication">Recommendation</span>
+    </div>
+    <p>Grill Me：<a href="https://github.com/mattpocock/skills"><strong>Skills for Real Engineers.</strong></a></p>
+  </div>
+
+  <div class="news-card news-card--publication">
+    <div class="news-meta">
+      <span class="news-date">September 14 2026</span>
+      <span class="news-tag news-tag--publication">Recommendation</span>
+    </div>
+    <p>MarkItDown：<a href="https://github.com/microsoft/markitdown"><strong>Python tool for converting files and office documents to Markdown.</strong></a></p>
+  </div>
+
   <div class="news-card news-card--publication">
     <div class="news-meta">
       <span class="news-date">September 7 2026</span>
@@ -274,29 +298,6 @@ If you are interested in any aspect of me, I am always open to discussions and c
     <p>Effortless Web Scraping for the Modern Web：<a href="https://github.com/D4Vinci/Scrapling"><strong>Scrapling is an adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl.</strong></a></p>
   </div>
 
-  <!-- <div class="news-card news-card--milestone">
-    <div class="news-meta">
-      <span class="news-date">Jan 2026</span>
-      <span class="news-tag news-tag--milestone">Milestone</span>
-    </div>
-    <p>Excited to have received an offer from Apple!</p>
-  </div>
-
-  <div class="news-card news-card--milestone">
-    <div class="news-meta">
-      <span class="news-date">March 2025</span>
-      <span class="news-tag news-tag--milestone">Milestone</span>
-    </div>
-    <p>Thrilled to have received an offer from UPenn Engineering!</p>
-  </div>
-
-  <div class="news-card news-card--publication">
-    <div class="news-meta">
-      <span class="news-date">August 2024</span>
-      <span class="news-tag news-tag--publication">Publication</span>
-    </div>
-    <p>First-Author Paper: <a href="https://onlinelibrary.wiley.com/doi/10.1002/sam.11708"><strong>A New Logarithmic Multiplicative Distortion for Correlation Analysis</strong></a> Now Officially Published in <a href="https://onlinelibrary.wiley.com/journal/19321872">Statistical Analysis and Data Mining</a> (JCR Q1)</p>
-  </div> -->
 </div>
 
 <script>
