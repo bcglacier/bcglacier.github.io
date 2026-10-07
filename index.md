@@ -268,6 +268,14 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
   <div class="news-card news-card--publication">
     <div class="news-meta">
+      <span class="news-date">October 7 2026</span>
+      <span class="news-tag news-tag--publication">Recommendation</span>
+    </div>
+    <p>Operit：<a href="https://github.com/AAswordman/Operit"><strong>The most powerful AI agent and AI chat software on Android.</strong></a></p>
+  </div>
+
+  <div class="news-card news-card--publication">
+    <div class="news-meta">
       <span class="news-date">September 15 2026</span>
       <span class="news-tag news-tag--publication">Recommendation</span>
     </div>
