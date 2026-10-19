@@ -268,6 +268,14 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
   <div class="news-card news-card--publication">
     <div class="news-meta">
+      <span class="news-date">October 19 2026</span>
+      <span class="news-tag news-tag--publication">Recommendation</span>
+    </div>
+    <p>jev-chat：<a href="https://github.com/jev-chat/jev-chat-jarvis"><strong>The chat decision assistant.</strong></a></p>
+  </div>
+
+  <div class="news-card news-card--publication">
+    <div class="news-meta">
       <span class="news-date">October 7 2026</span>
       <span class="news-tag news-tag--publication">Recommendation</span>
     </div>
